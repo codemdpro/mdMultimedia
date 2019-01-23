@@ -1,8 +1,8 @@
 <template>
-  <li class="text-center mx-auto m-2 py-4 shadow-md">
+  <li class="flex-1 mr-2 shadow-md">
     <router-link
       :to="toward"
-      class="no-underline text-grey bg-teal-darker hover:bg-teal-darkest px-4 py-4 rounded"
+      class="no-underline text-grey bg-teal-darker hover:bg-teal-darkest px-4 py-8 rounded"
       active-class="border-teal border-b-4"
     >
       <slot/>

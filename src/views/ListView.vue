@@ -23,15 +23,6 @@
     <col-wrap>
       <card/>
     </col-wrap>
-
-    <col-wrap>
-      <card/>
-    </col-wrap>
-
-    <col-wrap>
-      <card/>
-    </col-wrap>
-
     <col-wrap>
       <card/>
     </col-wrap>

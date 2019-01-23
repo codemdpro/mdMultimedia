@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey-light container mx-auto p-4">
+  <div class="bg-transparent min-h-screen container mx-auto px-4">
     <slot/>
   </div>
 </template>

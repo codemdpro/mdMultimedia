@@ -1,14 +1,22 @@
 <template>
-  <main class="bg-grey-darkest mt-8 py-2">
-    <div class="bg-grey-dark container mx-auto px-4 py-4">PAGE HEADER</div>
-    <div class="container flex items-center mx-auto mb-8">
+  <main class="bg-blue-darker pt-10 pb-16">
+    <div class="container flex items-center mx-0 md:mx-auto min-h-screen">
       <slot/>
     </div>
+    <!-- <nav-footer/> -->
   </main>
 </template>
 
 <script>
+import NavMain from "../nav/NavMain";
+import NavFooter from "../nav/NavFooter";
 export default {
-  name: "MainFrame"
+  name: "MainFrame",
+  components: { NavMain, NavFooter },
+  methods: {
+    goBack() {
+      return this.$router.go(-1);
+    }
+  }
 };
 </script>

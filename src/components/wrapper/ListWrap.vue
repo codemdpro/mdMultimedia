@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex list-reset mx-2">
+  <ul class="flex list-reset">
     <slot/>
   </ul>
 </template>
